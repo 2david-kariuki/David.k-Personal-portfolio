@@ -63,7 +63,9 @@ function Projects() {
   return (
     <section id="projects" className="projects">
       <h2>My Projects</h2>
-      <div className="project-grid">
+      <div className="project-cards">
+        {" "}
+        {/* This is the key container class */}
         {projects.map((project, index) => (
           <div key={index} className="project-card">
             <h3>{project.title}</h3>
