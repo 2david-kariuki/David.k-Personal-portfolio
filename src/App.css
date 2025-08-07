@@ -1,3 +1,4 @@
+/* --- GENERAL RESET & BASE STYLES --- */
 *,
 *::before,
 *::after {
@@ -22,6 +23,7 @@ p {
   margin-bottom: 1rem;
 }
 
+/* --- NAVIGATION --- */
 nav {
   background: #333;
   color: white;
@@ -64,6 +66,30 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
+/* Mobile styles for Navbar */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  nav .logo {
+    margin-bottom: 1rem;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+
+  .dark-toggle {
+    margin-top: 1rem;
+  }
+}
+
+
+/* --- HERO SECTION --- */
 .hero {
   padding: 80px 20px;
   text-align: center;
@@ -98,6 +124,7 @@ nav ul li a:hover {
   opacity: 0.8;
 }
 
+/* --- ABOUT SECTION --- */
 .about {
   display: flex;
   flex-wrap: wrap;
@@ -123,6 +150,7 @@ nav ul li a:hover {
   max-width: 600px;
 }
 
+/* --- PROJECTS SECTION --- */
 .project-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -143,6 +171,7 @@ nav ul li a:hover {
   transform: translateY(-5px);
 }
 
+/* --- CONTACT FORM --- */
 .contact {
   padding: 40px 20px;
   background-color: #f5f5f5;
