@@ -6,9 +6,9 @@ function Contact() {
       <h2>Contact Me</h2>
       <p>I'm always open to new opportunities. Feel free to reach out!</p>
       <ul>
-        <li>**Email:** david48kariuki@gmail.com</li>
+        <li>Email: david48kariuki@gmail.com</li>
         <li>
-          **LinkedIn:**{" "}
+          LinkedIn:{" "}
           <a
             href="https://www.linkedin.com/in/david-kariuki-24a5a9352/"
             target="_blank"
@@ -18,7 +18,7 @@ function Contact() {
           </a>
         </li>
         <li>
-          **GitHub:**{" "}
+          GitHub:{" "}
           <a
             href="https://github.com/2david-kariuki"
             target="_blank"
@@ -27,7 +27,7 @@ function Contact() {
             2david-kariuki
           </a>
         </li>
-        <li>**Phone:** 01110437317</li>
+        <li>Phone: 01110437317</li>
       </ul>
     </section>
   );

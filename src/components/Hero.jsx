@@ -2,6 +2,10 @@ import React from "react";
 import profilePic from "../assets/images/David.jpg";
 
 function Hero() {
+  const phoneNumber = "2541110437317";
+  const cvLink =
+    "https://docs.google.com/document/d/1HeUkUyCHvEjSgx53fz3AZNvYr9_80LTCv5gKLx1WoBk/edit?tab=t.0";
+
   return (
     <section id="hero" className="hero">
       <div className="hero-content">
@@ -10,14 +14,25 @@ function Hero() {
           alt="David Kariuki Karumba"
           className="profile-pic"
         />
-        <h1>Hello, I'm David .K Karumba</h1>
+        <h1>Hello, I'm David Kariuki Karumba</h1>
         <p>A passionate full-stack software engineer.</p>
         <div className="hero-buttons">
           <a href="#projects" className="btn primary">
             View My Work
           </a>
+          <a href={`tel:+${phoneNumber}`} className="btn secondary">
+            Call David
+          </a>
           <a
-            href="https://docs.google.com/document/d/1Xy_J6bW8Y-G7gL3_y8P5A5G2xQ2z6wX2z/edit?usp=sharing"
+            href={`https://wa.me/${phoneNumber}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn primary"
+          >
+            WhatsApp Me
+          </a>
+          <a
+            href={cvLink}
             target="_blank"
             rel="noopener noreferrer"
             className="btn secondary"
