@@ -230,7 +230,7 @@ img {
   margin-top: auto;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2rem;

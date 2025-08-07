@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImage from "../assets/images/IMG_2025DVID about.jpg"; // ✅ updated image
+import aboutImage from "../assets/images/IMG_2025DVID about.jpg"; 
 
 function About() {
   return (
