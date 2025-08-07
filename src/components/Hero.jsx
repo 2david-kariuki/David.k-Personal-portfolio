@@ -2,7 +2,7 @@ import React from "react";
 import profilePic from "../assets/images/David.jpg";
 
 function Hero() {
-  const phoneNumber = "2541110437317";
+  const phoneNumber = "254110437317";
   const cvLink =
     "https://docs.google.com/document/d/1HeUkUyCHvEjSgx53fz3AZNvYr9_80LTCv5gKLx1WoBk/edit?tab=t.0";
 

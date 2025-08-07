@@ -27,7 +27,7 @@ function Contact() {
             2david-kariuki
           </a>
         </li>
-        <li>Phone: 01110437317</li>
+        <li>Phone: 0110437317</li>
       </ul>
     </section>
   );
